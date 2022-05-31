@@ -459,9 +459,10 @@ bot.action('vip', ctx=>{
     ctx.replyWithMarkdown(`*🌍 Ülkeler*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'🇦🇿 Azərbaycan', callback_data:'AZ'}],
+                [{text:'🇦🇿 Azərbaycan', callback_data:'TR'}]
                 [{text:'🇹🇷 Türkiye', callback_data:'TR'}],
-                [{text:'🔙 Geri', callback_data:'start'}]
+                [{text:'🔙 Geri', callback_data:'TR'}]
+		  
             ]
         }
     })
@@ -473,9 +474,9 @@ bot.action('AZ', ctx=>{
     ctx.replyWithMarkdown(`*🇦🇿 VİP Gruplar 🏆*`,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Qrup ', url:'t.me/husnublog'}],
-                [{text:'2) Qrup ', url:'t.me/husnublog'}],
-                [{text:'🔙 Geri', callback_data:'vip'}]
+                [{text:'1) Qrup ', url:'http://t.me/nevarevladim'}],
+                [{text:'2) Qrup ', url:'http://t.me/nevarevladim'}],
+                [{text:'🔙 Geri', http://t.me/nevarevladim'}]
             ]
         }
     })
@@ -489,9 +490,9 @@ bot.action('TR', ctx=>{
         `,{
         reply_markup:{
             inline_keyboard:[
-                [{text:'1) Grub', url:'t.me/husnublog'}],
-                [{text:'2) Grub', url:'t.me/husnublog'}],
-                [{text:'🔙 Geri', callback_data:'vip'}]
+                [{text:'1) Grub', url:'http://t.me/nevarevladim'}],
+                [{text:'2) Grub', url:'http://t.me/nevarevladim'}],
+                [{text:'🔙 Geri', http://t.me/nevarevladim'}]
             ]
         }
     })
