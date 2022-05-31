@@ -22,7 +22,7 @@ const path = require("path")
 const dbfile = path.resolve(__dirname, "./veritabani/db.json")
 
 
-let oyunDurumuHusnuEhedov = {}
+let oyunDurumuNevarevladim = {}
 
 /// /// /// /// /// /// ///  <!-- VERİTABANI SUPERGROUP(-100) İD ÇEKME --> /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// /// 
 
