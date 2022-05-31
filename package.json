@@ -21,12 +21,12 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "husnuehedov",
-    "tahmin",
-    "telegram",
+    "nevarevladim",
+    "tahmin" ,
+    "telgraf" ,
     "bot",
     "oyun"
   ],
-  "author": "t.me/HusnuEhedov",
+  "yazar" : "http://t.me/nevarevladim" ,
   "license": "ISC"
 }
